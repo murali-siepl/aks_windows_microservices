@@ -120,4 +120,3 @@ spec:
 
 #Deploy Ingress
 kubectl apply -f ingress.yaml --wait 
-
