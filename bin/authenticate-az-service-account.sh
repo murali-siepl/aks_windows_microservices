@@ -20,6 +20,6 @@ RESOURCE_GROUP=$4
 CLUSTER_NAME=$5
 
 set -x
-
-az login --service-principal -u ${AKS_SRVC_USER} -p ${AKS_SRVC_PASSWORD} --tenant ${TENANT_ID}
+az login -u krishna.b@mdxblocksinc.com -p MDX@12345678 --tenant ${TENANT_ID}
+#az login --service-principal -u ${AKS_SRVC_USER} -p ${AKS_SRVC_PASSWORD} --tenant ${TENANT_ID}
 az aks get-credentials --resource-group ${RESOURCE_GROUP} --name ${CLUSTER_NAME} --overwrite --admin
