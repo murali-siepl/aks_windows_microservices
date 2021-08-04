@@ -27,7 +27,7 @@ HTTP_CONTAINER_PORT=8080
 INGRESS_NAME="spring-demo"
 
 # Prints all executed commands to terminal
-set -x
+set +x
 
 echo "apiVersion: v1
 kind: Service
